@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "Running Server on 8000"
+mkdir log
+python -m "SimpleHTTPServer" 2>> log/error.log >> log/access.log &

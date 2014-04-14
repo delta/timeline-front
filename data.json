@@ -1,0 +1,16 @@
+{
+  "timeline":
+  {
+    "headline":"NITT TIMELINE",
+    "type":"default",
+    "text":"TIMELINE FOR NITT",
+    "date":[
+      {
+        "headline":"test",
+        "text":"dfgdfg",
+        "startDate":"2014,03,26",
+        "endDate":"2014,03,26"
+      }
+    ]
+  }
+}

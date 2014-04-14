@@ -1,0 +1,52 @@
+<html>
+<head>
+        <!-- jQuery -->
+
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/storyjs-embed.js"></script>
+        <script>
+            $(document).ready(function() {
+              var w = window.innerWidth;
+              var h = window.innerHeight;
+                createStoryJS({
+                    type:       'timeline',
+                    width:      w,
+                    height:     h,
+                    source:     'data.json',
+                    embed_id:   'timeline'
+                });
+
+                var ti = document.getElementById("storyjs-timeline");
+            });
+        </script>
+
+
+
+        <style type="text/css" media="screen">
+          *{
+            padding: 0;
+            margin:0;
+          }
+
+          #storyjs-timeline{
+            background: rgba(0,0,0,0);
+          }
+
+          #gol {
+              background: #68C39F;
+              position:absolute;
+              top:0;
+              left:0;
+          }
+        </style>
+
+</head>
+
+<body>
+        <div id="timeline"></div>
+
+        <script type="text/javascript" src="canvas/gol.js"></script>
+</body>
+
+</html>
