@@ -10,3 +10,5 @@ https://github.com/viveksiva
 
 
 ./run
+
+access the site on port 8000
